@@ -1,0 +1,169 @@
+prompt--
+Create a premium cinematic calculator web app using React + Tailwind CSS + Framer Motion.
+
+This must be visually heavy, animated, and theme-focused with realistic background imagery and layered elements.
+
+Return full working code in one file.
+Ensure no syntax errors.
+
+------------------------------------------------
+GENERAL REQUIREMENTS
+------------------------------------------------
+
+• Fully responsive
+• Single file React component
+• Tailwind CSS styling
+• Framer Motion animations
+• Glassmorphism floating calculator card
+• Heavy shadows and glowing borders
+• Smooth 0.3s transitions
+• Button press depth animation
+• Ripple click effect
+• Smooth animated number transitions
+• Preserve state when switching themes
+
+------------------------------------------------
+CALCULATOR FEATURES
+------------------------------------------------
+
+• +, −, ×, ÷ operations
+• AC button
+• DEL button
+• Decimal support
+• Equal button
+• Animated display transitions
+
+------------------------------------------------
+HISTORY FEATURE (WITH LOCAL STORAGE)
+------------------------------------------------
+
+• Save every completed calculation in history
+• Format example: 12 + 5 = 17
+• Scrollable history panel
+• Collapsible/expandable history section
+• Smooth slide animation
+• Clear History button
+• Clear History must also clear localStorage
+• Load history from localStorage on page load
+• Update localStorage whenever history changes
+• Persist after refresh
+
+------------------------------------------------
+THEME 1 – SKY BLUE GHOST MODE (DEFAULT)
+------------------------------------------------
+
+Mood: Dreamy, mysterious, playful
+
+Background:
+• Sky blue to deep blue animated gradient
+• Multiple floating ghost SVG illustrations
+• Ghosts must be clearly visible
+• Different sizes for depth effect
+• Slow vertical floating animation
+• Light fog overlay effect
+• Soft glowing blue particle animation
+
+Visual Enhancements:
+• Subtle moon glow in background
+• Light cloud layers with parallax movement
+• Glass reflection animation on calculator
+
+Buttons:
+• Rounded
+• Soft sky blue neon glow
+• Hover scale animation
+• Depth press animation
+
+Display:
+• Glowing sky blue numbers
+• Smooth fade/slide transition
+
+------------------------------------------------
+THEME 2 – HANUMAN DIVINE POWER MODE
+------------------------------------------------
+
+Mood: Powerful, divine, energetic, respectful
+
+Background:
+• Golden orange to deep saffron gradient
+• High-quality divine illustration of Lord Hanuman in background
+• Must be respectful, powerful pose
+• Slight blur so calculator remains readable
+• Glowing aura behind Hanuman image
+• Floating golden light particles
+• Subtle temple silhouette background layer
+• Radiating light rays animation
+
+Effects:
+• Golden glowing border around calculator
+• Aura pulse animation
+• Soft divine glow
+
+Buttons:
+• Gold and saffron gradient
+• Glowing golden edges
+• Hover shimmer animation
+• Depth press animation
+
+Display:
+• Bright golden text
+• Subtle glowing flicker
+
+------------------------------------------------
+
+Include:
+• Animated toggle switch at top
+• Smooth animated theme transition
+• Preserve calculator and history state when switching themes
+• Use inline SVG or public image URLs so visuals always load
+• Make the UI cinematic, immersive, mesmerizing, and theme-rich
+
+Ensure images and animated background elements are clearly visible and layered.
+
+
+
+
+
+----------------------------------------------------------then modified once--------------------------------------------------------
+
+Modify the existing project.
+
+Fix Ghost Theme:
+
+• Make ghost illustrations clearly visible like Hanuman image in divine mode.
+• Add 2–3 large ghost SVG images in background.
+• Position them left and right side behind calculator.
+• Increase opacity so they are clearly visible.
+• Add slow floating animation.
+• Add depth using blur on far ghosts and sharp focus on near ghost.
+• Ensure ghost images are layered above gradient but behind calculator.
+• Do not make them too transparent.
+• Make the ghost theme visually dominant and immersive like Hanuman theme.
+
+-------------------------------------
+
+Fix Layout & Responsiveness:
+
+• Make calculator fit fully within screen height.
+• Prevent overflow beyond viewport.
+• Add vertical scrolling if content exceeds screen height.
+• Ensure mobile responsiveness.
+• On mobile:
+   - Stack history panel below calculator
+   - Make calculator width 90%
+• On desktop:
+   - Show history panel on right side as slide-out panel
+   - Make layout balanced and centered
+
+-------------------------------------
+
+Fix History Visibility:
+
+• Add visible "History" button at top right.
+• Clicking it should open slide-in history panel.
+• History panel must be clearly visible.
+• Ensure it is not hidden behind layers.
+• Add close button inside history panel.
+• Ensure scroll works inside history.
+
+Make sure everything is properly sized for laptop and mobile.
